@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name:  Sample-svc
+  name:  sample-svc
 spec:
   selector:
     app: nginx
