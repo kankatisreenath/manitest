@@ -9,4 +9,5 @@ spec:
   ports:
   - name: httpd
     port:  80
-    targetPort: 30001
+    nodePort: 30001
+    protocol: TCP
